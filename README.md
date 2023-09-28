@@ -1,45 +1,46 @@
 # Calculadora Avançada em C
 
-Esta é uma calculadora avançada em C que permite realizar diversas operações matemáticas, incluindo cálculos de raízes quadradas e a resolução de equações quadráticas utilizando a fórmula de Bhaskara.
+Este é um projeto de uma Calculadora Avançada em C, chamada V.A.G.N.E.R (Valorização Altamente Geométrica Nivelado Exponencialmente Relativo). Ela oferece várias funcionalidades matemáticas e é executada no terminal.
 
-## Como funciona
+## Funcionalidades
 
-O código é escrito em C e utiliza funções para realizar cálculos específicos. Aqui está um resumo das principais funcionalidades:
+A calculadora inclui as seguintes funcionalidades:
 
-### Cálculo de Bhaskara
+1. Soma
+2. Subtração
+3. Multiplicação
+4. Divisão
+5. Cálculo de um número ao quadrado
+6. Cálculo da raiz quadrada
+7. Cálculo da área de um triângulo
+8. Cálculo da área de um círculo
+9. Cálculo da área de um quadrado
+10. Cálculo das raízes de uma equação de segundo grau
+11. Cálculo da hipotenusa de um triângulo retângulo
 
-- A função `calcularBhaskara` calcula as raízes de uma equação quadrática com base nos coeficientes `a`, `b` e `c`. Ela lida com três cenários:
-  1. Se o discriminante for positivo, a função calcula duas raízes reais distintas.
-  2. Se o discriminante for zero, a função calcula duas raízes reais iguais.
-  3. Se o discriminante for negativo, a função imprime uma mensagem indicando que as raízes não estão no conjunto dos números reais.
+## Como Usar
 
-### Operações matemáticas
+Para usar a calculadora, siga estas etapas:
 
-- A calculadora realiza as seguintes operações matemáticas:
-  1. Soma
-  2. Subtração
-  3. Multiplicação
-  4. Divisão
-  5. Elevar um número ao quadrado
-  6. Calcular a raiz quadrada
+1. Clone este repositório em sua máquina local.
+2. Compile o código-fonte utilizando um compilador C compatível com o seu sistema.
+3. Execute o programa compilado.
+4. Siga as instruções no menu para selecionar a operação desejada e inserir os valores necessários.
 
-- Também é possível calcular a área de diferentes formas geométricas:
-  1. Triângulo
-  2. Círculo
-  3. Quadrado
+Certifique-se de que todas as funções e declarações necessárias estejam presentes e corretamente definidas no arquivo de cabeçalho "biblioteca.h". O código principal está no arquivo "main.c".
 
-### Como usar
+## Contribuição
 
-1. Execute o programa e escolha uma operação digitando o número correspondente.
-2. Siga as instruções para inserir os valores necessários para a operação selecionada.
-3. O programa calculará e exibirá o resultado.
+Este é um projeto de código aberto, e contribuições são bem-vindas. Se você deseja melhorar ou adicionar novas funcionalidades à calculadora, sinta-se à vontade para criar um fork deste repositório, fazer suas alterações e enviar um pull request.
 
-Certifique-se de fornecer os valores de entrada corretamente e siga as instruções apresentadas na tela.
+## Autor
 
-## Requisitos
+Este projeto foi desenvolvido por [Kaique Demetrio e Paulo de Souza Fontanela].
 
-O programa foi desenvolvido em C e não requer bibliotecas externas além das bibliotecas padrão do C.
+## Licença
 
-## Execução
+Este projeto está sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
 
-Compile e execute o programa usando um compilador C compatível, como o GCC.
+
+
+
